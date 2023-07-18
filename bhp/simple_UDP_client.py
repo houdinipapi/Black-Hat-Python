@@ -12,5 +12,7 @@ client.sendto(b"AAABBBCCC", (target_host, target_port))
 # Receive some data
 data, addr = client.recvfrom(4096)
 
-print(data.decode())
+print("Received:", data.decode())
+print("From:", addr)
+
 client.close()
