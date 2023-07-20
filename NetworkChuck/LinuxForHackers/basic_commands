@@ -1,0 +1,6 @@
+# Basic Linux Commands
+cd --> Change Directory
+pwd --> Prit Working Directory
+ls --> List Contents of a Directory
+cd .. --> Go back one directory
+cd - --> Return to the previous directory
