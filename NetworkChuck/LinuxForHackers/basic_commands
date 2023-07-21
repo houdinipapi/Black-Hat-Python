@@ -11,3 +11,4 @@ rm --> Remove
 adduser --> Add user to the system
 which --> shows the path of the file/used to determined the location of an executable file in the system.
 apropos --> search the manual page descriptions for given a keyword.
+sudo --> Super user
