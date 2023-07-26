@@ -1,0 +1,3 @@
+Inside file.txt
+cat > file.txt ==> writing
+ctrl + D ==> Saving
