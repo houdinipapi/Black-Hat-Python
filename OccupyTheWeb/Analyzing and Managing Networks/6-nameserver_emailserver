@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo dig hackers-arise.com ns
+sudo dig hackers-arise.com mx
