@@ -1,0 +1,3 @@
+#!/bin/bash
+
+renice +19 <PID>
