@@ -4,4 +4,4 @@
 
 mount /dev/sdb1 /media
 
-unmount /dev/sdb1
+umount /dev/sdb1
