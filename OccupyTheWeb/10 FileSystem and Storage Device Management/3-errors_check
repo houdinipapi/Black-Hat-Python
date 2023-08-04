@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Checking for errors in a flash drive
+
+# First unmount the flash drive
+umount /dev/sdb1
+
+# Check for errors while automatically repairing them
+fsck -p /dev/sdb1
