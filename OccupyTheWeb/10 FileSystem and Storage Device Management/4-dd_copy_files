@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Using the dd command to copy the entire contents of one flashdrive
+# to another, including deleted files
+
+dd if=/dev/sdb1 of=/dev/sdb2 bs=4096 conv:noerror
