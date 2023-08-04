@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Using the lsblk command to determine basic characteristics of the block devices
+
+lsblk
