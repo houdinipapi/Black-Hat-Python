@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Checking the amount of disk space free on the primary hard drive
+
+df
