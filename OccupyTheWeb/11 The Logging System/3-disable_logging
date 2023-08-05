@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Disabling logging on a system.
+
+service rsyslog stop
