@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Opening the rsyslog.conf file.
+# Change your log rotation to one wek.
+
+sudo vi /etc/logrotate.conf
+
+# Change the rotate number to 1
+rotate 1
