@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Using the shred command to shred and delete all the kern log files.
+
+sudo service rsyslog stop
+sudo shred -u /var/log/kern*
+sudo service rsyslog start
