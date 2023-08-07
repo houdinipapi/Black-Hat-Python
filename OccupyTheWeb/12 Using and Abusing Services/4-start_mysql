@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Starting MySQL database
+sudo service mysql start
+
+# Change to the root user
+mysql -u root -p
+
+# Change password
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'hackers-arise';
+
+# Change to the mysql database
+Use mysql;
