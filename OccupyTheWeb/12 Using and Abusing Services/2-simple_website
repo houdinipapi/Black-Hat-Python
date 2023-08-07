@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Editing index.html file
+
+sudo vi /var/www/html/index.html
