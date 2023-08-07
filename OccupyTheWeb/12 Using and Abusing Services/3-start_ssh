@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Starting SSH service and connecting from another system
+
+# Start the SSH service on the Kali system
+sudo service ssh start
+
+# Finding the IP address of a Kali system
+ip a
+
+# Connecting to the Kali system from another system
+sudo userbane@kali_ip_address
