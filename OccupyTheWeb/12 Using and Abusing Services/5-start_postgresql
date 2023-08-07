@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Start PostgreSQL service
+sudo service postgresql start
+
+# Switch to root user
+sudo su
+
+# Start Metaspoilt
+msfconsole
+
+# Initializing msfdb
+msfdb init
+
+# Switch user to postgre
+su postgres
+
+# Create a user
+createuser msf_user -P
+
+# Create a database
+createdb --owner=msf_user hackers_arise_db
