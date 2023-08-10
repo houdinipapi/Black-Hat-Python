@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Number of hops between a user and a specific website
+
+traceroute <website>
