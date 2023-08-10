@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Using proxychains
+
+proxychains firefox www.hackers-arise.com
