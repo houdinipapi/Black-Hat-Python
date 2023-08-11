@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Checking for wireless network adapters
+
+iwconfig
