@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Scanning for nearby discoverable Bluetooth devices
+
+hcitool scan
