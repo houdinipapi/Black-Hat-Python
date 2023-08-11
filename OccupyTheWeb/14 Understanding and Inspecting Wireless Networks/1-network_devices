@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Checking network devices for any wireless extensions.
+
+ifconfig
