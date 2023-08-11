@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Module Information
+
+modinfo <module name>
