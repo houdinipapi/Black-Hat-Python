@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Connecting to a Wi-Fi Access Point
+
+nmcli dev wifi connect <AP-SSID> password <AP-password>
