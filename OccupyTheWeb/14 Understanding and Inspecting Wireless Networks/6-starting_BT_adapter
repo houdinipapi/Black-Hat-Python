@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Bringing up a Bluetooth adapter
+
+hciconfig hci0 up
