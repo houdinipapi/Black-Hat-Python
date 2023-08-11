@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Checking for kernel version
+
+uname -a
