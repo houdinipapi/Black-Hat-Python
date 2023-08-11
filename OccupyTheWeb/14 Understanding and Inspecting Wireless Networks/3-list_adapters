@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Listing Wi-Fi Access Points
+
+iwlist wlan0 scan
