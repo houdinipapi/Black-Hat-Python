@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Testing whether Bluetooth devices are within reachable distance
+
+l2ping <MACaddress>
