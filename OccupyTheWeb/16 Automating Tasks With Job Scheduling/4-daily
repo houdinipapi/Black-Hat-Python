@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Schedule MySQLscanner.sh script to run daily at noon using the shortcuts
+
+@noon	user	/path/to/MySQLscanner.sh
