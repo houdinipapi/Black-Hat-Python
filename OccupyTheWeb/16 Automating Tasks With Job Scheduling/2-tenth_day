@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Scheduling MySQLscanner.sh script to run every 10th day
+# of the month in April, June, and August
+
+00 00	10 4,6,8 *	user	/path/to/MySQLscanner.sh
