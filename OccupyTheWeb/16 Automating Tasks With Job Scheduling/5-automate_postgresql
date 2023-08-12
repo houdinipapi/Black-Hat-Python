@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Updating rc.d script to run PostgreSQL every time the system boots
+
+sudo update-rc.d postgresql defaults
