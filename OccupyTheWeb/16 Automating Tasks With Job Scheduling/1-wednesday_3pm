@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Scheduling MySQLscanner.sh script to run every Wednesday at 3PM
+
+00 15	* * 3	user /path/to/MySQLscanner.sh
