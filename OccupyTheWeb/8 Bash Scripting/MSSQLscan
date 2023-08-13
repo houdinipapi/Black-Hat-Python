@@ -1,0 +1,2 @@
+# Nmap 7.94 scan initiated Tue Aug  1 06:12:04 2023 as: nmap -sT -p 1433 -oG MSSQLscan 192.168.181.0-255
+# Nmap done at Tue Aug  1 06:13:49 2023 -- 256 IP addresses (0 hosts up) scanned in 105.40 seconds

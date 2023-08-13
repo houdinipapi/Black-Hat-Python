@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Checking for Wi-Fi APs within range
+
+nmcli dev wifi
