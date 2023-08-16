@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Use tcpdump to filter out all traffic not coming or going to your IP address
+
+sudo tcpdump host <IP address>
