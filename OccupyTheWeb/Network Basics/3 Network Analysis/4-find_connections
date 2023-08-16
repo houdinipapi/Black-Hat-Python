@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Use netstat to find all the connections to your system.
+
+netstat -tuln
