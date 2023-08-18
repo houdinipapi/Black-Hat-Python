@@ -2,4 +2,4 @@
 
 # The IP address of the Wi-Fi router
 
-route
+route -n
