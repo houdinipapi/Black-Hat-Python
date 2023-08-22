@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Flushing the firewall rules
+
+sudo iptables -F
