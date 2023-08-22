@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Blocking port 445
+
+sudo iptables -A OUTPUT -p tcp --dport 445 -j DROP
