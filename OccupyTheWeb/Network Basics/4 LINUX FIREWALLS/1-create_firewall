@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# A firewal that enables connection to Hackers-Arise and,
+# no other website on ports 80 and 443
+
+sudo iptables -A OUTPUT -p tcp -d hackers-arise.com -j ACCEPT
